@@ -1,13 +1,13 @@
 "use client";
 
-import Navbar from "@/components/NavBar";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import Benefits from "@/components/Benefits";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import Navbar from "@/app/(Home)/components/NavBar";
+import Hero from "@/app/(Home)/components/Hero";
+import Features from "@/app/(Home)/components/Features";
+import Benefits from "@/app/(Home)/components/Benefits";
+import Pricing from "@/app/(Home)/components/Pricing";
+import Testimonials from "@/app/(Home)/components/Testimonials";
+import Contact from "@/app/(Home)/components/Contact";
+import Footer from "@/app/(Home)/components/Footer";
 
 export default function Home() {
   return (

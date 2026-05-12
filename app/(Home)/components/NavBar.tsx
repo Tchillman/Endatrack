@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
